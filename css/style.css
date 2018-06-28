@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+  }
+  
+  .container {
+    background: url('../images/castle_background.png') 0 0 no-repeat;
+    background-position: center;
+    height: 3840px;
+    width: 100%;
+  }
+
+ 
+
+  
+  #crazy_boy {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: -80px;
+    margin: auto;
+    background: url('../images/crazy_boy.png') 0 0 no-repeat;
+    width: 72px;
+    height: 80px;
+    background-size: 216px 240px;
+    transition: top 1s ease;
+    animation:  
+    crazyboy 1s steps(3) 7,
+    crazyboy2 1s steps(1) 7s ; 
+    
+  }
+
+  /* @keyframes crazyboy{
+     0% {background-position:0 0;}
+     50.00% {background-position:-216px 0;}
+     50.01%{background-position:0 -80px;}
+     100%{background-position: -216px -80px;}
+    
+ }
+ @keyframes crazyboy2{
+     0%{background-position: 0 -160px;}
+     100%{background-position:65px -160px; }
+ }  */
